@@ -36,3 +36,4 @@ function forgotPass(){
         document.getElementById("error").innerHTML = error.message
     });
 }
+
