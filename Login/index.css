@@ -16,12 +16,12 @@ body{
 
 .custom-field input{
     padding: 12px;
-    width: 300px;
+
     font-size: 14px;
     border-radius: 3px;
     border: 1.5px solid gray;
     outline-color: deepskyblue;
-     border: none;
+   
 }
 
 .custom-field .placeholder{
