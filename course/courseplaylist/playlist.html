@@ -9,6 +9,8 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<!-- Docs styles -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CDNSFree2/Plyr/plyr.css" />
 
   <link rel="stylesheet" href="other/npm/choices.js/public/assets/styles/base.min.css">
   <link rel="stylesheet" href="other/npm/choices.js/public/assets/styles/choices.min.css">
@@ -102,10 +104,12 @@
                         <div class="">
                           <div>Introduction to the User</div>
                           <div class="d-flex x-gap-20 items-center pt-5">
-                            <a href="https://www.youtube.com/watch?v=phWxA89Dy94&ab_channel=SlayingTheDragon" class="d-flex justify-center items-center size-60 rounded-full bg-white js-gallery" data-gallery="gallery1">
-                              <span class="text-14 lh-1 text-purple-1 underline">Preview</span>
-
-                            </a>
+                            <div style="width: 500px;" class="plyr__video-embed" id="player">
+        <iframe src="https://www.youtube.com/embed/bTqVqk7FSmY" allowfullscreen
+            allowtransparency
+            allow="autoplay">
+        </iframe>
+    </div>
                              <a href="#" class="text-14 lh-1 text-purple-1 underline">03:56</a>
                           </div>
                         </div>
@@ -707,6 +711,7 @@
   <!-- JavaScript -->
   <script src="other/leaflet%401.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
   <script src="js/vendors.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/CDNSFree2/Plyr/plyr.js"></script>
   <script src="js/main.js"></script>
 </body>
 
